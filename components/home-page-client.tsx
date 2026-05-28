@@ -162,19 +162,10 @@ export default function HomePageClient() {
                 <div className="relative h-72">
                   <MediaCard src={project.coverImage} alt={project.title} className="h-full rounded-none border-0 transition-transform duration-700 group-hover:scale-[1.03]" />
                 </div>
-                <div className="space-y-4 p-6">
-                  <div className="flex items-center justify-between gap-4">
-                    <p className="text-[11px] font-black uppercase tracking-normal text-primary">
-                      {project.yearLabel}
-                    </p>
-                    <p className="text-[11px] font-black uppercase tracking-normal text-navy/45">
-                      {project.location}
-                    </p>
-                  </div>
+                <div className="p-6">
                   <h3 className="text-2xl font-black uppercase tracking-tight text-navy">
                     {project.title}
                   </h3>
-                  <p className="text-base leading-relaxed text-navy/68">{project.summary}</p>
                 </div>
               </Link>
             ))}

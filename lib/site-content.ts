@@ -462,387 +462,119 @@ export const services: Service[] = [
 
 export const referenceProjects: ReferenceProject[] = [
   {
-    slug: "dom-potravin-humenne",
-    title: "Dom potravín, 26. novembra 1510",
+    slug: "bytovy-dom-hrnciarska-humenne",
+    title: "Bytový dom Hrnčiarska",
     location: "Humenné",
-    yearLabel: "2009 – 2012",
-    summary:
-      "Komplexná rekonštrukcia objektu v Humennom so zateplením, výmenou okien a obnovou komerčných priestorov.",
-    lead: "Komplexná rekonštrukcia",
-    scope: [
-      "fasáda a zateplenie",
-      "výmena PVC okien",
-      "rekonštrukcia strechy",
-      "spevnené plochy a parkovisko",
-      "rekonštrukcia interiéru: kancelárie, fitness centrum, reštaurácia a komerčné priestory",
-    ],
-    tags: ["rekonštrukcia", "komerčný objekt", "Humenné"],
-    coverImage: referenceImage("bez-facingu-interaktiv-page-007.jpg"),
+    yearLabel: "2024",
+    summary: "",
+    tags: ["bytový dom", "zateplenie", "rekonštrukcia", "Humenné"],
+    coverImage: "/BD_Humenné_Hrnčiarska/68a24c09-9cdf-465a-a235-fe482dff9c72.JPG",
     gallery: [
-      {
-        src: referenceImage("bez-facingu-interaktiv-page-007.jpg"),
-        alt: "Dom potravín, Humenné",
-      },
-      {
-        src: referenceImage("bez-facingu-interaktiv-page-006-1-scaled.jpg"),
-        alt: "Detail projektu Dom potravín, Humenné",
-      },
+      { src: "/BD_Humenné_Hrnčiarska/68a24c09-9cdf-465a-a235-fe482dff9c72.JPG", alt: "Bytový dom Hrnčiarska - zrekonštruovaný objekt" },
+      { src: "/BD_Humenné_Hrnčiarska/0ef7e5d0-c993-45dc-a047-256c4df3eadf.JPG", alt: "Bytový dom Hrnčiarska - pohľad na fasádu" },
+      { src: "/BD_Humenné_Hrnčiarska/3dc1680f-14c2-4fe6-b8c0-4af12a24dcb0.JPG", alt: "Bytový dom Hrnčiarska - detail vchodu" },
+      { src: "/BD_Humenné_Hrnčiarska/59fc64a6-249a-46ba-8b96-d6cafebffd98.JPG", alt: "Bytový dom Hrnčiarska - zatepľovacie práce" },
+      { src: "/BD_Humenné_Hrnčiarska/718231de-000f-4326-9e13-2711bba935f4.JPG", alt: "Bytový dom Hrnčiarska - pohľad zo zadnej strany" },
+      { src: "/BD_Humenné_Hrnčiarska/74f754c0-f0ab-401a-b79c-22c45a4a1b5b.JPG", alt: "Bytový dom Hrnčiarska - detail balkónov" },
+      { src: "/BD_Humenné_Hrnčiarska/9abcb430-449a-4eea-9117-7056fab8bf0c.JPG", alt: "Bytový dom Hrnčiarska - dokončená fasáda" },
+      { src: "/BD_Humenné_Hrnčiarska/ab362735-7e60-4241-bfe7-0dd1fca9edbe.JPG", alt: "Bytový dom Hrnčiarska - pohľad z boku" },
+      { src: "/BD_Humenné_Hrnčiarska/ac38c2fe-01b2-48b8-b2e9-a5ba29253723.JPG", alt: "Bytový dom Hrnčiarska - celkový pohľad" },
+      { src: "/BD_Humenné_Hrnčiarska/bb8814b6-6547-476c-b6a4-9afd5804bafc.JPG", alt: "Bytový dom Hrnčiarska - rekonštrukcia sokla" },
+      { src: "/BD_Humenné_Hrnčiarska/dba18922-48cc-4e45-a85b-84c271700c5d.JPG", alt: "Bytový dom Hrnčiarska - detailný pohľad na roh" },
+      { src: "/BD_Humenné_Hrnčiarska/f492a02d-eaa5-46c2-a855-13deefe3971a.JPG", alt: "Bytový dom Hrnčiarska - zrekonštruované priečelie" }
     ],
-    featured: true,
+    featured: true
   },
   {
-    slug: "komenskeho-humenne",
-    title: "Komenského",
+    slug: "bytovy-dom-strazske",
+    title: "Bytový dom Strážske",
+    location: "Strážske",
+    yearLabel: "2023",
+    summary: "",
+    tags: ["bytový dom", "rekonštrukcia", "zateplenie", "Strážske"],
+    coverImage: "/Bytový_dom_strážske/a57276fd-fff1-4a44-81be-95dba500e0b0.JPG",
+    gallery: [
+      { src: "/Bytový_dom_strážske/a57276fd-fff1-4a44-81be-95dba500e0b0.JPG", alt: "Bytový dom Strážske - hotová fasáda" },
+      { src: "/Bytový_dom_strážske/4092b5a5-34f6-4a60-a284-2afccc924b20.JPG", alt: "Bytový dom Strážske - stavebné úpravy" },
+      { src: "/Bytový_dom_strážske/42291892-0eb3-4162-bca3-c72443828649.JPG", alt: "Bytový dom Strážske - priebeh rekonštrukcie" },
+      { src: "/Bytový_dom_strážske/43a99c7f-eb44-41bd-86f8-753e259c9d6a.JPG", alt: "Bytový dom Strážske - dokončovanie interiéru" },
+      { src: "/Bytový_dom_strážske/553ff555-3e92-4079-9bf1-dcda7f648cf3.JPG", alt: "Bytový dom Strážske - omietkárske práce" },
+      { src: "/Bytový_dom_strážske/72fb2c8c-010a-44b3-b173-c5bc118a6aee.JPG", alt: "Bytový dom Strážske - pohľad z ulice" },
+      { src: "/Bytový_dom_strážske/7ab2b463-f2dd-48e3-885a-cf9f1d6c984c.JPG", alt: "Bytový dom Strážske - nová fasáda" },
+      { src: "/Bytový_dom_strážske/80886eb0-feed-4bd3-9ca7-b17b48458cff.JPG", alt: "Bytový dom Strážske - zrekonštruovaný objekt" },
+      { src: "/Bytový_dom_strážske/867b1c79-7769-4d50-a1cd-006c595e703e.JPG", alt: "Bytový dom Strážske - rekonštrukcia vchodu" },
+      { src: "/Bytový_dom_strážske/c4a35355-108b-47b9-bdab-18ac4e50950b.JPG", alt: "Bytový dom Strážske - modernizovaný vzhľad" },
+      { src: "/Bytový_dom_strážske/d6ed5827-2898-4617-917d-3cc43128d0f1.JPG", alt: "Bytový dom Strážske - zatepľovanie" },
+      { src: "/Bytový_dom_strážske/ec02c7c1-bc79-4451-9729-57e404e5d34f.JPG", alt: "Bytový dom Strážske - pohľad z bočnej strany" },
+      { src: "/Bytový_dom_strážske/faea43ae-b416-4422-aeae-92d4b11d50eb.JPG", alt: "Bytový dom Strážske - hotová realizácia" }
+    ],
+    featured: true
+  },
+  {
+    slug: "mestsky-urad-humenne",
+    title: "Mestský úrad Humenné",
     location: "Humenné",
-    yearLabel: "2012",
-    summary:
-      "Komplexná rekonštrukcia internátu na mestské byty doplnená obnovou fasády, balkónov, výmenou okien a úpravou interiéru.",
-    lead: "Komplexná rekonštrukcia prestavba internátu na mestské byty",
-    scope: [
-      "fasáda a zateplenie",
-      "balkónové podlahy a nové zábradlie",
-      "výmena PVC okien",
-      "schodiská",
-      "výťahové stúpačky",
-      "rekonštrukcia interiéru: omietky a sadrokartóny",
-    ],
-    tags: ["mestské byty", "rekonštrukcia", "Humenné"],
-    coverImage: referenceImage("bez-facingu-interaktiv-page-005.jpg"),
+    yearLabel: "2024",
+    summary: "",
+    tags: ["občianska stavba", "rekonštrukcia", "stavebné práce", "Humenné"],
+    coverImage: "/Mestský_Úrad_Humenné/cd0599b8-d201-495f-8100-579f5ddc52b7.JPG",
     gallery: [
-      {
-        src: referenceImage("bez-facingu-interaktiv-page-005.jpg"),
-        alt: "Komenského, Humenné",
-      },
-      {
-        src: referenceImage("bez-facingu-interaktiv-page-004.jpg"),
-        alt: "Detail projektu Komenského, Humenné",
-      },
+      { src: "/Mestský_Úrad_Humenné/cd0599b8-d201-495f-8100-579f5ddc52b7.JPG", alt: "Mestský úrad Humenné - celkový pohľad po modernizácii" },
+      { src: "/Mestský_Úrad_Humenné/12ca1d6b-12d8-46d5-aee2-624aafa79155.JPG", alt: "Mestský úrad Humenné - rekonštrukcia interiéru" },
+      { src: "/Mestský_Úrad_Humenné/15e5800b-6b44-41b2-ade0-bfc814419daf.JPG", alt: "Mestský úrad Humenné - stavebné úpravy chodieb" },
+      { src: "/Mestský_Úrad_Humenné/16650a54-a18e-4a5b-9505-eec0a8f6615c.JPG", alt: "Mestský úrad Humenné - pokládka dlažby" },
+      { src: "/Mestský_Úrad_Humenné/31c73bfe-835f-4294-a7fa-78e4906625af.JPG", alt: "Mestský úrad Humenné - omietky a stierky" },
+      { src: "/Mestský_Úrad_Humenné/330fa93c-5ebd-45bb-87be-7dbe91be8357.JPG", alt: "Mestský úrad Humenné - montáž sadrokartónov" },
+      { src: "/Mestský_Úrad_Humenné/3d13d233-4422-4578-ac27-3aeb7d68bc09.JPG", alt: "Mestský úrad Humenné - práce na vnútornej inštalácii" },
+      { src: "/Mestský_Úrad_Humenné/4dcac7a3-5722-4225-b691-6e867100fb9d.JPG", alt: "Mestský úrad Humenné - modernizovaná kancelária" },
+      { src: "/Mestský_Úrad_Humenné/73c97754-713b-41ff-a724-85d853a8a732.JPG", alt: "Mestský úrad Humenné - dokončené priestory" },
+      { src: "/Mestský_Úrad_Humenné/8cadf14b-6f73-40eb-865d-cb701b76dd1b.JPG", alt: "Mestský úrad Humenné - rekonštrukcia vchodu" },
+      { src: "/Mestský_Úrad_Humenné/968e5c7f-9e42-46f9-8237-5701e4ff601a.JPG", alt: "Mestský úrad Humenné - detaily obkladov" },
+      { src: "/Mestský_Úrad_Humenné/b610bbfe-fb77-4500-a0a3-0806b72dd98b.JPG", alt: "Mestský úrad Humenné - obnova stien" },
+      { src: "/Mestský_Úrad_Humenné/bee4818e-513d-4ab8-9b6f-92663428f70b.JPG", alt: "Mestský úrad Humenné - stavebné detaily" }
     ],
-    featured: true,
+    featured: true
   },
   {
-    slug: "snp-humenne",
-    title: "Ulica Slovenského národného povstania",
-    location: "Humenné",
-    yearLabel: "2016",
-    summary:
-      "Obnova bytového domu so zateplením, rekonštrukciou spoločných priestorov a výmenou pivničných okien.",
-    scope: [
-      "fasáda a zateplenie",
-      "balkónové podlahy a nové zábradlie",
-      "rekonštrukcia spoločných priestorov",
-      "rekonštrukcia vchodov do spoločných priestorov",
-      "výmena pivničných okien",
-    ],
-    tags: ["bytový dom", "zateplenie", "Humenné"],
-    coverImage: referenceImage("bez-facingu-interaktiv-page-015.jpg"),
+    slug: "predajna-cba-kamenak",
+    title: "Predajňa CBA Kameňák",
+    location: "Humenné - Kameňák",
+    yearLabel: "2023",
+    summary: "",
+    tags: ["komerčný objekt", "rekonštrukcia", "stavebné práce", "Humenné"],
+    coverImage: "/Predajnňa_CBA_Kameňák/3d7969de-7e48-4a56-905d-e7bc89cb039d.JPG",
     gallery: [
-      {
-        src: referenceImage("bez-facingu-interaktiv-page-015.jpg"),
-        alt: "Ulica Slovenského národného povstania, Humenné",
-      },
-      {
-        src: referenceImage("bez-facingu-interaktiv-page-014-scaled.jpg"),
-        alt: "Detail projektu SNP, Humenné",
-      },
+      { src: "/Predajnňa_CBA_Kameňák/3d7969de-7e48-4a56-905d-e7bc89cb039d.JPG", alt: "CBA Kameňák - omietky v skladoch" },
+      { src: "/Predajnňa_CBA_Kameňák/00053d76-8b9a-412d-88ff-4aa3b3afea73.JPG", alt: "CBA Kameňák - stavebná pripravenosť" },
+      { src: "/Predajnňa_CBA_Kameňák/12a1daac-f58c-4309-bad6-697604329fc1.JPG", alt: "CBA Kameňák - búracie práce a príprava" },
+      { src: "/Predajnňa_CBA_Kameňák/33354b69-6552-4b1e-a3e3-10b7e8a1a009.JPG", alt: "CBA Kameňák - realizácia interiéru" },
+      { src: "/Predajnňa_CBA_Kameňák/38c07ae1-004d-4bbe-b93c-63fdbc6d6896.JPG", alt: "CBA Kameňák - potery a podlahy" },
+      { src: "/Predajnňa_CBA_Kameňák/3c6dc5fb-e997-42ae-9259-e46aaee0aa14.JPG", alt: "CBA Kameňák - elektroinštalácia" },
+      { src: "/Predajnňa_CBA_Kameňák/5b789f68-13a6-47ec-96c5-c818cafd7276.JPG", alt: "CBA Kameňák - zateplenie fasády" },
+      { src: "/Predajnňa_CBA_Kameňák/625aef04-4432-4490-ad43-369ca65cc720.JPG", alt: "CBA Kameňák - príprava spevnených plôch" },
+      { src: "/Predajnňa_CBA_Kameňák/6b09d406-ba5d-4bb3-a770-1475f8a11bae.JPG", alt: "CBA Kameňák - oplotenie a okolie" },
+      { src: "/Predajnňa_CBA_Kameňák/704683c3-d8a0-408c-a6cc-1d766866e616.JPG", alt: "CBA Kameňák - dokončovacie interiérové detaily" },
+      { src: "/Predajnňa_CBA_Kameňák/b9831e1e-785b-4b81-8514-6610e0953409.JPG", alt: "CBA Kameňák - hotová prevádzka" },
+      { src: "/Predajnňa_CBA_Kameňák/c1e2027b-8f3e-45bb-ad86-1f9d97a8825f.JPG", alt: "CBA Kameňák - spevnená plocha a parking" },
+      { src: "/Predajnňa_CBA_Kameňák/ce179066-737e-4f51-8f01-3dc05299e38f.JPG", alt: "CBA Kameňák - celkový exteriér" }
     ],
-    featured: true,
+    featured: true
   },
   {
-    slug: "zeleznicna-kamenica-nad-cirochou",
-    title: "Železničná 44, 46",
-    location: "Kamenica nad Cirochou",
-    yearLabel: "2017",
-    summary:
-      "Rekonštrukcia bytového domu v Kamenici nad Cirochou vrátane fasády, strechy, spoločných priestorov a spevnených plôch.",
-    scope: [
-      "fasáda a zateplenie",
-      "rekonštrukcia vchodov do spoločných priestorov",
-      "výmena PVC okien",
-      "komplexná rekonštrukcia strechy",
-      "výstavba priľahlých spevnených plôch",
-    ],
-    tags: ["bytový dom", "rekonštrukcia", "Kamenica nad Cirochou"],
-    coverImage: referenceImage("bez-facingu-interaktiv-page-017-scaled.jpg"),
+    slug: "rodinny-dom-dubnik",
+    title: "Rodinný dom, Dubník",
+    location: "Humenné - Dubník",
+    yearLabel: "2024",
+    summary: "",
+    tags: ["rodinný dom", "novostavba", "stavebné práce", "Humenné"],
+    coverImage: "/RD_Humenné_Dubník/fd1fd40c-2d9f-4063-ad50-a6a16b42e75b.JPG",
     gallery: [
-      {
-        src: referenceImage("bez-facingu-interaktiv-page-017-scaled.jpg"),
-        alt: "Železničná 44, 46, Kamenica nad Cirochou",
-      },
-      {
-        src: referenceImage("bez-facingu-interaktiv-page-016-scaled.jpg"),
-        alt: "Detail projektu Železničná, Kamenica nad Cirochou",
-      },
+      { src: "/RD_Humenné_Dubník/fd1fd40c-2d9f-4063-ad50-a6a16b42e75b.JPG", alt: "RD Dubník - priebeh stavebných prác" },
+      { src: "/RD_Humenné_Dubník/3c0a394e-90b5-4916-a206-5e2ab540f743.JPG", alt: "RD Dubník - stavebný pozemok a výkopy" },
+      { src: "/RD_Humenné_Dubník/cd333ad4-4477-409e-9650-9afe8969f610.JPG", alt: "RD Dubník - murovanie hrubej stavby" }
     ],
-    featured: true,
-  },
-  {
-    slug: "sokolovska-humenne",
-    title: "Sokolovská 15, 17",
-    location: "Humenné",
-    yearLabel: "2017",
-    summary:
-      "Obnova bytového domu na ulici Sokolovská v Humennom vrátane fasády a spoločných priestorov.",
-    scope: [
-      "fasáda a zateplenie",
-      "balkónové podlahy a nové zábradlie",
-      "rekonštrukcia spoločných priestorov",
-      "rekonštrukcia vchodov do spoločných priestorov",
-      "výmena pivničných okien",
-    ],
-    tags: ["bytový dom", "zateplenie", "Humenné"],
-    coverImage: referenceImage("bez-facingu-interaktiv-page-019-scaled.jpg"),
-    gallery: [
-      {
-        src: referenceImage("bez-facingu-interaktiv-page-019-scaled.jpg"),
-        alt: "Sokolovská 15, 17, Humenné",
-      },
-      {
-        src: referenceImage("bez-facingu-interaktiv-page-018-scaled.jpg"),
-        alt: "Detail projektu Sokolovská, Humenné",
-      },
-    ],
-  },
-  {
-    slug: "sevcenkova-humenne",
-    title: "Ševčenková 1662/6, 8, 10",
-    location: "Humenné",
-    yearLabel: "2017 – 2018",
-    summary:
-      "Obnova bytového domu na Ševčenkovej ulici v Humennom vrátane fasády, okien a balkónových konštrukcií.",
-    scope: [
-      "fasáda a zateplenie",
-      "výmena PVC okien",
-      "balkónové podlahy a nové zábradlie",
-    ],
-    tags: ["bytový dom", "zateplenie", "Humenné"],
-    coverImage: referenceImage("bez-facingu-interaktiv-page-023-scaled.jpg"),
-    gallery: [
-      {
-        src: referenceImage("bez-facingu-interaktiv-page-023-scaled.jpg"),
-        alt: "Ševčenková, Humenné",
-      },
-      {
-        src: referenceImage("bez-facingu-interaktiv-page-022-scaled.jpg"),
-        alt: "Detail projektu Ševčenková, Humenné",
-      },
-    ],
-  },
-  {
-    slug: "mierova-humenne",
-    title: "Mierová 71, 73, 75, 77",
-    location: "Humenné",
-    yearLabel: "2018",
-    summary:
-      "Referencia bytového domu na Mierovej ulici s kompletnou obnovou fasády a spoločných priestorov.",
-    scope: [
-      "fasáda a zateplenie",
-      "výmena PVC okien",
-      "balkónové podlahy",
-      "rekonštrukcia vchodov do spoločných priestorov",
-      "rekonštrukcia spoločných priestorov",
-    ],
-    tags: ["bytový dom", "zateplenie", "Humenné"],
-    coverImage: referenceImage("bez-facingu-interaktiv-page-021-1-scaled.jpg"),
-    gallery: [
-      {
-        src: referenceImage("bez-facingu-interaktiv-page-021-1-scaled.jpg"),
-        alt: "Mierová 71, 73, 75, 77, Humenné",
-      },
-      {
-        src: referenceImage("bez-facingu-interaktiv-page-020-scaled.jpg"),
-        alt: "Detail projektu Mierová, Humenné",
-      },
-    ],
-    featured: true,
-  },
-  {
-    slug: "parkoviska-lipova-tyrsova-snina-vihorlat",
-    title: "Parkoviská: Lipová, Tyršová, Snina Vihorlat",
-    location: "Región Humenné a Snina",
-    yearLabel: "Spevnené plochy",
-    summary:
-      "Realizácia spevnených plôch a parkovísk s dôrazom na zámkovú dlažbu, zatrávňovače, asfalt a betón.",
-    scope: ["zámková dlažba", "zatrávňovače", "asfalt", "betón"],
-    tags: ["parkoviská", "spevnené plochy", "zemné práce"],
-    coverImage: referenceImage("bez-facingu-interaktiv-page-024-scaled.jpg"),
-    gallery: [
-      {
-        src: referenceImage("bez-facingu-interaktiv-page-024-scaled.jpg"),
-        alt: "Parkoviská Lipová, Tyršová, Snina Vihorlat",
-      },
-    ],
-  },
-  {
-    slug: "trebicska-humenne",
-    title: "Bytový dom, Třebíčska",
-    location: "Humenné",
-    yearLabel: "2012",
-    summary:
-      "Bytový dom v Humennom zaradený do portfólia bytových a rekonštrukčných realizácií spoločnosti.",
-    tags: ["bytový dom", "rekonštrukcia", "Humenné"],
-    coverImage: referenceImage("bez-facingu-interaktiv-page-027-scaled.jpg"),
-    gallery: [
-      {
-        src: referenceImage("bez-facingu-interaktiv-page-027-scaled.jpg"),
-        alt: "Prehľad realizácií BSL TRADING",
-      },
-    ],
-    archiveOnly: true,
-  },
-  {
-    slug: "kulturny-dom-chlmec-pri-humennom",
-    title: "Kultúrny dom",
-    location: "Chlmec pri Humennom",
-    yearLabel: "2012",
-    summary:
-      "Úpravy a stavebné práce na objekte kultúrneho domu v Chlmci pri Humennom.",
-    tags: ["občianska stavba", "rekonštrukcia", "Chlmec pri Humennom"],
-    coverImage: referenceImage("bez-facingu-interaktiv-page-027-scaled.jpg"),
-    gallery: [
-      {
-        src: referenceImage("bez-facingu-interaktiv-page-027-scaled.jpg"),
-        alt: "Prehľad realizácií BSL TRADING",
-      },
-    ],
-    archiveOnly: true,
-  },
-  {
-    slug: "vekastool-vyroba-ok-humenne",
-    title: "Vekastool – výroba OK",
-    location: "Humenné",
-    yearLabel: "2015",
-    summary:
-      "Stavebné práce pre výrobný alebo prevádzkový objekt spoločnosti Vekastool v Humennom.",
-    tags: ["výrobný objekt", "stavebné práce", "Humenné"],
-    coverImage: referenceImage("bez-facingu-interaktiv-page-027-scaled.jpg"),
-    gallery: [
-      {
-        src: referenceImage("bez-facingu-interaktiv-page-027-scaled.jpg"),
-        alt: "Prehľad realizácií BSL TRADING",
-      },
-    ],
-    archiveOnly: true,
-  },
-  {
-    slug: "partizanska-humenne",
-    title: "Zateplenie BD Partizánska",
-    location: "Humenné",
-    yearLabel: "2016",
-    summary:
-      "Zateplenie bytového domu na Partizánskej ulici v Humennom.",
-    tags: ["zateplenie", "bytový dom", "Humenné"],
-    coverImage: referenceImage("bez-facingu-interaktiv-page-027-scaled.jpg"),
-    gallery: [
-      {
-        src: referenceImage("bez-facingu-interaktiv-page-027-scaled.jpg"),
-        alt: "Prehľad realizácií BSL TRADING",
-      },
-    ],
-    archiveOnly: true,
-  },
-  {
-    slug: "rodinne-domy-rezidencia-michalovce",
-    title: "Rodinné domy – rezidencia",
-    location: "Michalovce",
-    yearLabel: "2017 – 2018",
-    summary:
-      "Výstavba rodinných domov v rezidenčnom projekte v Michalovciach.",
-    tags: ["rodinné domy", "developer", "Michalovce"],
-    coverImage: referenceImage("bez-facingu-interaktiv-page-027-scaled.jpg"),
-    gallery: [
-      {
-        src: referenceImage("bez-facingu-interaktiv-page-027-scaled.jpg"),
-        alt: "Prehľad realizácií BSL TRADING",
-      },
-    ],
-    archiveOnly: true,
-  },
-  {
-    slug: "koor-vychod",
-    title: "Stavebné práce pre fi Koor Východ s.r.o.",
-    location: "Rôzne lokality",
-    yearLabel: "2018",
-    summary:
-      "Stavebné práce realizované pre spoločnosť Koor Východ s.r.o.",
-    tags: ["stavebné práce", "komerčný partner", "spolupráca"],
-    coverImage: referenceImage("bez-facingu-interaktiv-page-027-scaled.jpg"),
-    gallery: [
-      {
-        src: referenceImage("bez-facingu-interaktiv-page-027-scaled.jpg"),
-        alt: "Prehľad realizácií BSL TRADING",
-      },
-    ],
-    archiveOnly: true,
-  },
-  {
-    slug: "energo-group",
-    title: "Zemné práce – Energo Group",
-    location: "Rôzne lokality",
-    yearLabel: "2009 – 2018",
-    summary:
-      "Dlhodobé zemné práce realizované pre spoločnosť Energo Group.",
-    tags: ["zemné práce", "dlhodobá spolupráca", "výkopové práce"],
-    coverImage: referenceImage("bez-facingu-interaktiv-page-027-scaled.jpg"),
-    gallery: [
-      {
-        src: referenceImage("bez-facingu-interaktiv-page-027-scaled.jpg"),
-        alt: "Prehľad realizácií BSL TRADING",
-      },
-    ],
-    archiveOnly: true,
-  },
-  {
-    slug: "papin",
-    title: "Rekonštrukcia BD Papín",
-    location: "Papín",
-    yearLabel: "2018",
-    summary:
-      "Rekonštrukcia bytového domu v obci Papín.",
-    tags: ["rekonštrukcia", "bytový dom", "Papín"],
-    coverImage: referenceImage("bez-facingu-interaktiv-page-027-scaled.jpg"),
-    gallery: [
-      {
-        src: referenceImage("bez-facingu-interaktiv-page-027-scaled.jpg"),
-        alt: "Prehľad realizácií BSL TRADING",
-      },
-    ],
-    archiveOnly: true,
-  },
-  {
-    slug: "chemes",
-    title: "Rekonštrukcia AB Chemes a.s.",
-    location: "Humenné",
-    yearLabel: "2005 – 2007",
-    summary:
-      "Rekonštrukcia administratívnej budovy spoločnosti Chemes v Humennom.",
-    tags: ["rekonštrukcia", "administratívna budova", "Humenné"],
-    coverImage: referenceImage("bez-facingu-interaktiv-page-027-scaled.jpg"),
-    gallery: [
-      {
-        src: referenceImage("bez-facingu-interaktiv-page-027-scaled.jpg"),
-        alt: "Prehľad realizácií BSL TRADING",
-      },
-    ],
-    archiveOnly: true,
-  },
-  {
-    slug: "mesto-humenne",
-    title: "Mesto Humenné",
-    location: "Humenné",
-    yearLabel: "2012 – 2018",
-    summary:
-      "Súbor stavebných a rekonštrukčných prác realizovaných pre mesto Humenné.",
-    tags: ["verejný sektor", "mestské zákazky", "Humenné"],
-    coverImage: referenceImage("bez-facingu-interaktiv-page-027-scaled.jpg"),
-    gallery: [
-      {
-        src: referenceImage("bez-facingu-interaktiv-page-027-scaled.jpg"),
-        alt: "Prehľad realizácií BSL TRADING",
-      },
-    ],
-    archiveOnly: true,
-  },
+    featured: true
+  }
 ];
 
 export const certificates: Certificate[] = [

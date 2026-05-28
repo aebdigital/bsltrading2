@@ -10,6 +10,9 @@ const nextConfig: NextConfig = {
   // standard `.next` directory on Netlify so its Next.js runtime can detect
   // the expected build output during deploys.
   distDir,
+  images: {
+    formats: ["image/avif", "image/webp"],
+  },
 };
 
 export default nextConfig;

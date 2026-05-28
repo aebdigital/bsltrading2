@@ -74,7 +74,6 @@ export default async function ReferenceDetailPage({ params }: ReferencePageProps
             </h2>
             <div className="mt-6 space-y-3 text-base text-navy/72">
               <p>Lokalita: {project.location}</p>
-              <p>Obdobie: {project.yearLabel}</p>
             </div>
 
             {project.lead ? (
@@ -107,16 +106,7 @@ export default async function ReferenceDetailPage({ params }: ReferencePageProps
               </div>
             ) : null}
 
-            <div className="mt-8 flex flex-wrap gap-3">
-              {project.tags.map((tag) => (
-                <span
-                  key={tag}
-                  className="border border-primary/20 bg-primary/10 px-4 py-2 text-[11px] font-black uppercase tracking-normal text-primary"
-                >
-                  {tag}
-                </span>
-              ))}
-            </div>
+
           </div>
         </div>
 
@@ -152,10 +142,7 @@ export default async function ReferenceDetailPage({ params }: ReferencePageProps
                 <div className="relative h-48">
                   <MediaCard src={item.coverImage} alt={item.title} className="h-full rounded-none border-0" />
                 </div>
-                <div className="space-y-2 p-5">
-                  <p className="text-[11px] font-black uppercase tracking-normal text-primary">
-                    {item.yearLabel}
-                  </p>
+                <div className="p-5">
                   <h3 className="text-xl font-black uppercase tracking-tight text-navy">
                     {item.title}
                   </h3>

@@ -52,59 +52,52 @@ export default function ReferencesPage() {
                   className="h-full rounded-none border-0 transition-transform duration-700 group-hover:scale-105"
                 />
               </div>
-              <div className="space-y-4 p-6">
-                <div className="flex items-center justify-between gap-4">
-                  <p className="text-[11px] font-black uppercase tracking-normal text-primary">
-                    {project.yearLabel}
-                  </p>
-                  <p className="text-[11px] font-black uppercase tracking-normal text-navy/45">
-                    {project.location}
-                  </p>
-                </div>
+              <div className="p-6">
                 <h2 className="text-2xl font-black uppercase tracking-tight text-navy">
                   {project.title}
                 </h2>
-                <p className="text-base leading-relaxed text-navy/68">{project.summary}</p>
               </div>
             </Link>
           ))}
         </div>
       </section>
 
-      <section className="border-y border-black/5 bg-white py-16 md:py-24">
-        <div className="mx-auto grid w-[95vw] gap-8 lg:grid-cols-[0.9fr_1.1fr]">
-          <div>
-            <p className="mb-4 text-[11px] font-black uppercase tracking-normal text-primary">
-              Ďalšie realizácie
-            </p>
-            <h2 className="text-4xl font-black uppercase tracking-tight text-navy md:text-6xl">
-              Ďalšie projekty z firemného portfólia.
-            </h2>
-            <p className="mt-5 max-w-2xl text-lg leading-relaxed text-navy/68">
-              Prehľad ďalších realizácií spoločnosti BSL TRADING z bytovej, občianskej a komerčnej výstavby.
-            </p>
+      {archive.length > 0 && (
+        <section className="border-y border-black/5 bg-white py-16 md:py-24">
+          <div className="mx-auto grid w-[95vw] gap-8 lg:grid-cols-[0.9fr_1.1fr]">
+            <div>
+              <p className="mb-4 text-[11px] font-black uppercase tracking-normal text-primary">
+                Ďalšie realizácie
+              </p>
+              <h2 className="text-4xl font-black uppercase tracking-tight text-navy md:text-6xl">
+                Ďalšie projekty z firemného portfólia.
+              </h2>
+              <p className="mt-5 max-w-2xl text-lg leading-relaxed text-navy/68">
+                Prehľad ďalších realizácií spoločnosti BSL TRADING z bytovej, občianskej a komerčnej výstavby.
+              </p>
+            </div>
+            <div className="grid gap-3">
+              {archive.map((project) => (
+                <Link
+                  key={project.slug}
+                  href={`/referencie/${project.slug}`}
+                  className="flex flex-col gap-2 border border-black/5 bg-zinc-50 px-5 py-4 transition-colors hover:border-primary/35 hover:bg-white"
+                >
+                  <div className="flex flex-col gap-2 md:flex-row md:items-center md:justify-between">
+                    <h3 className="text-lg font-black uppercase tracking-tight text-navy">
+                      {project.title}
+                    </h3>
+                    <p className="text-[11px] font-black uppercase tracking-normal text-primary">
+                      {project.yearLabel}
+                    </p>
+                  </div>
+                  <p className="text-sm text-navy/65">{project.location}</p>
+                </Link>
+              ))}
+            </div>
           </div>
-          <div className="grid gap-3">
-            {archive.map((project) => (
-              <Link
-                key={project.slug}
-                href={`/referencie/${project.slug}`}
-                className="flex flex-col gap-2 border border-black/5 bg-zinc-50 px-5 py-4 transition-colors hover:border-primary/35 hover:bg-white"
-              >
-                <div className="flex flex-col gap-2 md:flex-row md:items-center md:justify-between">
-                  <h3 className="text-lg font-black uppercase tracking-tight text-navy">
-                    {project.title}
-                  </h3>
-                  <p className="text-[11px] font-black uppercase tracking-normal text-primary">
-                    {project.yearLabel}
-                  </p>
-                </div>
-                <p className="text-sm text-navy/65">{project.location}</p>
-              </Link>
-            ))}
-          </div>
-        </div>
-      </section>
+        </section>
+      )}
     </main>
   );
 }
