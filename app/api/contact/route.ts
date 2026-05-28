@@ -109,6 +109,12 @@ export async function POST(request: Request) {
         subject: `BSL TRADING | Kontakt z webu | ${name}`,
         text_body: textBody,
         html_body: htmlBody,
+        custom_headers: [
+          {
+            header: "Reply-To",
+            value: email,
+          },
+        ],
       }),
       cache: "no-store",
     });
