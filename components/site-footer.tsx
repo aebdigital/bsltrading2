@@ -67,7 +67,7 @@ export function SiteFooter() {
           </p>
           <div className="space-y-6">
             {contacts.map((contact) => (
-              <div key={contact.email} className="space-y-1">
+              <div key={contact.phoneHref} className="space-y-1">
                 <p className="text-sm font-black uppercase tracking-normal text-primary">
                   {contact.role}
                 </p>
@@ -78,12 +78,14 @@ export function SiteFooter() {
                 >
                   {contact.phone}
                 </a>
-                <a
-                  href={`mailto:${contact.email}`}
-                  className="block text-sm uppercase tracking-normal text-white/60 transition-colors hover:text-primary"
-                >
-                  {contact.email}
-                </a>
+                {contact.email ? (
+                  <a
+                    href={`mailto:${contact.email}`}
+                    className="block text-sm uppercase tracking-normal text-white/60 transition-colors hover:text-primary"
+                  >
+                    {contact.email}
+                  </a>
+                ) : null}
               </div>
             ))}
           </div>

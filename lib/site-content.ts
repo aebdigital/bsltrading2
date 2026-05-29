@@ -8,7 +8,7 @@ export type ContactPerson = {
   role: string;
   phone: string;
   phoneHref: string;
-  email: string;
+  email?: string;
 };
 
 export type TableData = {
@@ -144,18 +144,24 @@ export const contacts: ContactPerson[] = [
     email: "bilsak@bsltrading.sk",
   },
   {
-    name: "Marek Dudrák",
-    role: "Obchodný zástupca",
-    phone: "0917 458 618",
-    phoneHref: "tel:+421917458618",
-    email: "bsldudrak@gmail.com",
-  },
-  {
     name: "Mgr. Peter Savkanič",
     role: "Projektový manažér",
     phone: "0908 323 627",
     phoneHref: "tel:+421908323627",
     email: "bslsavkanic@gmail.com",
+  },
+  {
+    name: "Jozef Kozlovský",
+    role: "Stavbyvedúci",
+    phone: "+421 907 942 122",
+    phoneHref: "tel:+421907942122",
+  },
+  {
+    name: "Marek Dudrák",
+    role: "Obchodný zástupca",
+    phone: "0917 458 618",
+    phoneHref: "tel:+421917458618",
+    email: "bsldudrak@gmail.com",
   },
   {
     name: "Ing. Maria Gaľová",

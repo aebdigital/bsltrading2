@@ -30,7 +30,7 @@ export default function ContactPage() {
       <PageHero
         eyebrow="Kontakt"
         title="Všetky dôležité kontakty na jednom mieste."
-        description="Kontakty na vedenie firmy, obchodného zástupcu a projektového manažéra vrátane sídla a kontaktného formulára."
+        description="Kontakty na vedenie firmy, projektového manažéra, stavbyvedúceho a obchodný tím vrátane sídla a kontaktného formulára."
         image="/images/about.jpg"
         imageAlt="Kontakt BSL Trading"
       />
@@ -82,7 +82,7 @@ export default function ContactPage() {
         <div className="grid gap-5 md:grid-cols-2">
           {contacts.map((contact) => (
             <article
-              key={contact.email}
+              key={contact.phoneHref}
               className="border border-black/5 bg-white p-6 shadow-[0_12px_35px_rgba(0,0,0,0.05)]"
             >
               <p className="text-[11px] font-black uppercase tracking-normal text-primary">
@@ -95,9 +95,11 @@ export default function ContactPage() {
                 <a href={contact.phoneHref} className="block transition-colors hover:text-primary">
                   {contact.phone}
                 </a>
-                <a href={`mailto:${contact.email}`} className="block break-all transition-colors hover:text-primary">
-                  {contact.email}
-                </a>
+                {contact.email ? (
+                  <a href={`mailto:${contact.email}`} className="block break-all transition-colors hover:text-primary">
+                    {contact.email}
+                  </a>
+                ) : null}
               </div>
             </article>
           ))}
