@@ -159,7 +159,7 @@ export const contacts: ContactPerson[] = [
   },
   {
     name: "Ing. Maria Gaľová",
-    role: "Asistentka obchodu",
+    role: "Manažér obchodu",
     phone: "0907 723 897",
     phoneHref: "tel:+421907723897",
     email: "bslmgalova@gmail.com",
