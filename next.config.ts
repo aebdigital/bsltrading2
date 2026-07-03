@@ -1,14 +1,13 @@
 import type { NextConfig } from "next";
 
-const isNetlifyBuild = Boolean(process.env.NETLIFY);
+// Keep local dev output separate, but always emit the standard `.next`
+// directory for production builds so the OpenNext Cloudflare adapter can
+// detect the build output.
 const distDir =
   process.env.NEXT_DIST_DIR ??
-  (isNetlifyBuild ? ".next" : process.env.NODE_ENV === "development" ? ".next-dev" : ".next-prod");
+  (process.env.NODE_ENV === "development" ? ".next-dev" : ".next");
 
 const nextConfig: NextConfig = {
-  // Keep local dev and local production builds separate, but preserve the
-  // standard `.next` directory on Netlify so its Next.js runtime can detect
-  // the expected build output during deploys.
   distDir,
   images: {
     formats: ["image/avif", "image/webp"],
@@ -41,3 +40,6 @@ const nextConfig: NextConfig = {
 };
 
 export default nextConfig;
+
+import { initOpenNextCloudflareForDev } from "@opennextjs/cloudflare";
+initOpenNextCloudflareForDev();
