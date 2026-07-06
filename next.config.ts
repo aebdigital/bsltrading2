@@ -10,6 +10,7 @@ const distDir =
 const nextConfig: NextConfig = {
   distDir,
   images: {
+    unoptimized: true,
     formats: ["image/avif", "image/webp"],
   },
   async headers() {
